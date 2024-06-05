@@ -85,3 +85,6 @@ export default async function run() {
   }
   console.log('Listening on ' + config.hostname + ':' + config.port + '...');
 }
+
+// Needed for alternate entry
+run();

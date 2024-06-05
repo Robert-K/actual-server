@@ -57,7 +57,7 @@ let defaultConfig = {
     'fc00::/7',
     '::1/128',
   ],
-  port: 5006,
+  port: process.env.PORT,
   hostname: '::',
   webRoot: path.join(
     projectRoot,
